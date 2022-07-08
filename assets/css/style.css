@@ -58,10 +58,20 @@ header{
     font-weight: 600;
     border-bottom: 5px solid black;
 }
-
 .menu li a:hover,
 .menu .active a{
     border-bottom: 5px solid #b28756;
+    color:gainsboro;
+}
+
+/*----------------------------------------MAIN-----------------------------------------*/
+
+.banner{
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
 
     

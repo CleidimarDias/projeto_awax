@@ -6,20 +6,23 @@
 body{
     font-family: Montserrat,Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
+    
 }
 
 header{
     height: 100px;
-    width: 100vw;
+    /*width: 100vw;*/
     background-color:#000;
     color:#fff;
 }
 .header1{
-    max-width: 1140px;
+        
     margin:auto;
     display: flex;
     height: 100px;
-    align-items: center;   
+    align-items: center; 
+    overflow-x: hidden;  
     
     
 }
@@ -71,6 +74,7 @@ header{
 .banner{
     
     height: calc(100vh - 100px);
+    /*width: 100vw;*/
     background-color: #333;
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -146,6 +150,60 @@ header{
 .banner .pointer.active{
     background-color: #b28756;
 }
+
+/*-------------------------------------SECTION DEFAULT----------------------------------*/
+
+.default{
+    
+   /* width: 100vw;    */
+    padding-top: 50px;
+    padding-bottom: 50px;
+        
+}
+.default .section_title,
+.default .section_desc{    
+
+    text-align: center; 
+    text-transform: uppercase; 
+    font-weight: 600;  
+} 
+
+.default .section_title{
+    font-size: 20px;  
+
+}
+
+.default .section_desc{
+    font-size: 13px;
+    color: #ccc;
+    margin-top:10px;
+    margin-bottom: 40px;
+}
+
+.default .section_body{
+    margin: auto;    
+    max-width: 1140px;
+    min-height: 100px;
+    
+}
+
+.default.dark{
+    background-color:#000;
+}
+.default.dark .section_title.dark{
+    color:#fff;
+}
+
+.default.light{
+    background-color:#fff;
+}
+
+.default.light .section_title.light{
+    color:#000;
+}
+
+
+
     
 
 

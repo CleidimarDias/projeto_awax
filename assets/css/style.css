@@ -308,6 +308,63 @@ header{
     border-left: 0;
 }
 
+/*------------------------------------Criando Section Photos--------------------------*/
+
+.section_projects_photos{
+    margin-top: 20px;
+    width: 100vw;
+    max-width: 1140px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section_projects_photo{    
+    width: 280px;    
+    
+}
+
+.section_projects_photo_area{
+    margin: 10px;
+    width: 260px;    
+    height:160px;
+}
+
+.section_projects_photo_area img{
+    width:inherit;
+    height:inherit;
+}
+
+.section_projects_photo_desc{
+    position:absolute;
+    color: #fff; 
+    display: none;      
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0,0,0,0.5);
+    width:inherit;
+    height:inherit;
+}
+
+.section_projects_photo_desc h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section_projects_photo_area:hover .section_projects_photo_desc{
+    display:flex;
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+
+
+
+
 
 
 
